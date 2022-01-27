@@ -1,0 +1,111 @@
+/*CSS file for all templates in this project folder*/
+
+/*universal css*/
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Home Page*/
+.navbar{
+	margin: 0 auto;
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    border-bottom: 5px solid #808080;
+}
+
+.navbar ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li{
+	display: inline-block;
+	background-color: #ffffff;
+	padding-left: 5%;
+	padding-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 20px;
+	line-height: 60px;
+	padding: 0 20px;
+}
+
+
+/*single_item.html*/
+.single_item_tb{
+    margin: auto;
+    margin-top: 2%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.single_item_tb td{
+    padding: 2%;
+    border-bottom : 1px solid black;
+}
+
+img{
+    width: 50%;    
+    height: 50%;
+}
+
+.alt_row{
+    background-color: #808080;
+    color: #ffffff;
+}
+
+
+/*list_view.html*/
+.item_list{
+    margin: auto;
+    margin-top: 2%;
+    width: 90%;
+} 
+
+.item_list ul{
+    font-family: sans-serif;
+    list-style-type: none;
+    columns: 2;
+    text-align: center;
+}
+
+.item_list ul li{
+    margin: 3%;
+}
+
+.bttn{   /*CSS to make the 'view item' link look like a button*/
+	background-color: #808080;
+	padding: 10px 35px;
+	transition: 0.3s;
+	border-bottom: 2px solid #cccccc;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.bttn:hover{ 
+	background-color: #f2f2f2;
+	color: black;
+}
+
+.bttn:active{
+	background-color: #d9d9d9;
+	color: white;
+}
+
+

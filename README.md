@@ -12,27 +12,24 @@ Google drive: https://drive.google.com/file/d/1ibTpQBoqoqqlY-Ovt28lpxLC39QlDHPk/
 
 Alternatively, view the written steps below
 # Setup
-1. Using command prompt, navigate to the 'project' directory (example: C:\Users\Hp\Downloads\ims-main\project\)
+1. Using command prompt, navigate to the 'project' directory (the first 'project' directory, not the second one) (example: C:\Users\Hp\Downloads\ims-main\project\)
 2. Start virtual environment with 'pipenv shell' command
-3. Start server with 'py manage.py runserver' command
-4. If not installed or if error message appears, install Pillow prior to running server with 'python -m pip install Pillow' command
-5. If any errors occur (such as empty database), see below
-
-# To load data into database (may not need)
-1. Run command 'pipenv shell' in command prompt if not already in the virtual environment
-2. Run command 'py manage.py loaddata supplier_data.json' first
-3. Run command 'py manage.py loaddata inventory_data.json' first
-
-# Sync database (may not need)
-1. Run command 'py manage.py makemigrations
-2. Run command 'py manage.py migrate'
+### load data into database (if not already loaded)
+3. Run command 'py manage.py loaddata supplier_data.json' first
+4. Run command 'py manage.py loaddata inventory_data.json' 
+### sync database (if not already synced)
+5. Run command 'py manage.py makemigrations' 
+6. Run command 'py manage.py migrate' 
+### start server
+7. Start server with 'py manage.py runserver' command
+8. If not installed or if error message appears, install Pillow prior to running server with 'python -m pip install Pillow' command
 
 
 # How to Use 
 1. Run command 'pipenv shell' in command prompt if not already in the virtual environment
 2. Run command 'py manage.py runserver' to start the server
 3. At the page that appears at , click on any of the navigation items to navigate to the corresponding page
-# At'ADMIN DASHBOARD'
+# At 'ADMIN DASHBOARD'
 --> username: admin
 --> password: password123
 --> email: admin@mail.com

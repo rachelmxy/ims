@@ -1,6 +1,5 @@
 # Inventory Management System
-Backend Developer Coding Assignment for Kiratech
-
+Backend Developer Coding Assignment
 # Dependencies
 1. Python3
 2. Django

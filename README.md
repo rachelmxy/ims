@@ -6,6 +6,11 @@ Backend Developer Coding Assignment for Kiratech
 2. Django
 3. Django rest framework
 
+# Setup Video + How To Use
+Google drive: https://drive.google.com/file/d/1ibTpQBoqoqqlY-Ovt28lpxLC39QlDHPk/view?usp=sharing
+
+
+Alternatively, view the written steps below
 # Setup
 1. Using command prompt, navigate to the 'project' directory (example: C:\Users\Hp\Downloads\ims-main\project\)
 2. Start virtual environment with 'pipenv shell' command

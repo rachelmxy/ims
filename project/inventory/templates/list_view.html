@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title> Inventory Listing </title> 
+    
+    <!--linking css file to html file | source: https://www.youtube.com/watch?v=QLL4KzFMfVw&ab_channel=ProblemSolvingPoint -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">  
+</head>
+      
+<body>
+    <div class="item_list">
+        {% for data in dataset %}
+        <ul class="list">
+            <li> <strong>Item Name:</strong>  {{ data.inv_name }}    </li>
+            <li>  <strong>Supplier:</strong>  {{ data.supplier }}   </li>
+
+            {% if data.availability %} <!--If the availability of the item = True, display 'Yes' to user -->
+                <li>  <strong>Available:</strong> Yes </li>
+            {% else %}
+                <li>  <strong>Available:</strong> No </li>
+            {%endif%}
+
+            <li><a href="{{data.id}}" class="bttn">   View item  </a></li>  
+            <!-- when 'view item' is clicked, the id of the item will be appended to the end of the url-->
+            <!--urls will handle the redirection-->
+        </ul>
+
+        <hr/>
+     
+        {% endfor %}
+     
+    </div>
+</body>
+   
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width"/>
+
+  <title> {{item.inv_name}} </title> 
+
+  <!--linking css file to html file  | source: https://www.youtube.com/watch?v=QLL4KzFMfVw&ab_channel=ProblemSolvingPoint -->
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'styles.css' %}"/>  
+</head>
+
+<body>
+    <table class="single_item_tb"> 
+          <tr>
+            <td colspan="2" rowspan="3" class="image_cell"> <img src="{{item.thumbnail.url}}" alt="picture of product"/> </td>
+            <td> <p> <strong> Item Name:</strong> {{item.inv_name}} </p> </td>
+            <td> <p> <strong> Item ID:</strong> {{item.id}}</td>
+          </tr>
+
+          <tr class="alt_row">
+            <td colspan="2"> <p> <strong> Description: </strong> {{item.description}}</td>
+          </tr>
+
+          <tr>
+            <td><p> <strong> Price:</strong> RM{{item.price}}</td>
+            <td><p> <strong> Note:</strong> {{item.note}}</td>
+          </tr>
+
+          <tr class="alt_row">
+            <td colspan="2"> <p> <strong> Stock:</strong> {{item.stock}} </td>
+              <!--Display 'Yes if item is available'-->
+              {% if item.availability %}
+                <td> <p> <strong> Available:</strong> Yes </td>
+              {% else %}
+                <td> <p> <strong> Available:</strong> No </td>
+              {%endif%}
+
+            <td> <p> <strong> Supplier:</strong> {{item.supplier}} </td>
+          </tr>
+
+    </table>
+</body>
+
+
+</html>

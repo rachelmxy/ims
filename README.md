@@ -23,7 +23,7 @@ Backend Developer Coding Assignment for Kiratech
 2. Run command 'py manage.py migrate'
 
 
-## How to Use 
+# How to Use 
 1. Run command 'pipenv shell' in command prompt if not already in the virtual environment
 2. Run command 'py manage.py runserver' to start the server
 3. At the page that appears at , click on any of the navigation items to navigate to the corresponding page

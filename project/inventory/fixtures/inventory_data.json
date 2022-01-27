@@ -1,0 +1,95 @@
+[
+    {
+      "model": "inventory.Inventory",
+      "pk": 1,
+      "fields": {
+        "inv_name": "Daily Repair Foam Cleanser",
+        "description": "A low-irritant, gel-type cleansing foam with pH level similar to skin barrier",
+        "price": 34.60,
+        "note": "For dry, sensitive skin",
+        "stock": 120,
+        "availability": true,
+        "supplier": 1        
+      }
+    },
+    {
+        "model": "inventory.Inventory",
+        "pk": 2,
+        "fields": {
+          "inv_name": "Amino Acid Clear Foaming Cleanser",
+          "description": "A deep foaming cleanser with rich bubbles for acne-prone skin, formulated with mild cleansing complex and Salicylic acid",
+          "price": 48.00,
+          "note": "",
+          "stock": 89,
+          "availability": true,
+          "supplier": 1   
+        }
+    },
+    {
+        "model": "inventory.Inventory",
+        "pk": 3,
+        "fields": {
+          "inv_name": "Lacbena Acne Pimple Patch",
+          "description": "Transparent pimple patch that absorbs oil secretions",
+          "price": 6.76,
+          "note": "For external use only",
+          "stock": 4470,
+          "availability": true,
+          "supplier": 2 
+        }   
+    },
+
+    {
+      "model": "inventory.Inventory",
+      "pk": 4,
+      "fields": {
+        "inv_name": "Micellar Cleansing Water",
+        "description": "Suitable for removing makeup and cleansing pores",
+        "price": 39.99,
+        "note": "For external use only",
+        "stock": 234,
+        "availability": true,
+        "supplier": 2 
+      }   
+    },
+
+    {
+      "model": "inventory.Inventory",
+      "pk": 5,
+      "fields": {
+        "inv_name": "Rose Quartz Facial Roller",
+        "description": "Decrease puffiness, relaxes and soothes skin",
+        "price": 65.00,
+        "note": "For external use only",
+        "stock": 0,
+        "availability": false,
+        "supplier": 3 
+      }   
+    },
+    {
+      "model": "inventory.Inventory",
+      "pk": 6,
+      "fields": {
+        "inv_name": "Matcha Green Clay Facial Mask",
+        "description": "Rejuvenates skin",
+        "price": 13.00,
+        "note": "Ready stock",
+        "stock": 889,
+        "availability": true,
+        "supplier": 3 
+      }   
+    },
+    {
+      "model": "inventory.Inventory",
+      "pk": 7,
+      "fields": {
+        "inv_name": "Dead Sea Mud Mask",
+        "description": "Rich in salt and mineral, helps skin expell toxins with continued usage",
+        "price": 22.51,
+        "note": "For uneven, dull skin ",
+        "stock": 500,
+        "availability": true,
+        "supplier": 3 
+      }
+    }
+  ]

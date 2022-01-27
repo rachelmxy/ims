@@ -1,0 +1,24 @@
+
+[
+    {
+      "model": "inventory.Supplier",
+      "pk": 1,
+      "fields": {
+        "supp_name": "terrcareonline"
+      }
+    },
+    {
+        "model": "inventory.Supplier",
+        "pk": 2,
+        "fields": {
+          "supp_name": "lanbena"
+      }
+    },
+    {
+        "model": "inventory.Supplier",
+        "pk": 3,
+        "fields": {
+          "supp_name": "saltybodyco"
+      }
+    }
+  ]

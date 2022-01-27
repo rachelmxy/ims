@@ -29,16 +29,16 @@ Alternatively, view the written steps below
 1. Run command 'pipenv shell' in command prompt if not already in the virtual environment
 2. Run command 'py manage.py runserver' to start the server
 3. At the page that appears at , click on any of the navigation items to navigate to the corresponding page
-# At 'ADMIN DASHBOARD'
+## At 'ADMIN DASHBOARD'
 --> username: admin
 --> password: password123
 --> email: admin@mail.com
 Once logged in, CRUD operations on the Inventory model are able to be performed
 
-# At 'INVENTORY LIST'
+## At 'INVENTORY LIST'
 This page displays the full list of inventory items in the database. Click the 'View Item' link to load another page with the full details of a single item
 
-# At 'API'
+## At 'API'
 This page displays the response from the API query. Filter function is supported via URL query parameter. Example: http://127.0.0.1:8000/api/inventory/?name=Daily%20Repair%20Foam%20Cleanser will display the response for only the Daily Repair Foam Cleanser inventory item
 
 

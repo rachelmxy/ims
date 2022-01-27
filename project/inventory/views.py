@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from rest_framework.decorators import api_view
 from api.inventory.views import *
 # Create your views here.
 

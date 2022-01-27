@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--this is the template for the home page-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title> Home </title> 
+    
+    <!--linking css file to html file | source: https://www.youtube.com/watch?v=QLL4KzFMfVw&ab_channel=ProblemSolvingPoint -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">  
+</head>
+        
+
+<body>
+    <header>
+        <!--navigation bar-->
+        <nav class="navbar">
+            <ul >
+                <li> <a href="admin/"> Admin Dashboard</a></li>
+                <li> <a href="inventory/"> Inventory List </a></li>
+                <li> <a href="api/inventory"> API </a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+
+</html>
